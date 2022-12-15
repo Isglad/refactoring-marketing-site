@@ -122,23 +122,24 @@ p {
     text-align: center;
 }*/
 
-.benefit-lead img {
+/* combined article images with same css properties and values */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* .benefit-brand img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.benefit-cost img {
+/* .benefit-cost img { 
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 .search-engine-optimization {
     margin-bottom: 20px;
