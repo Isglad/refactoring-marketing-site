@@ -25,7 +25,8 @@ body {
     display: inline;  /* added display property to display the new section element inline */
 }
 
-.header div {
+/* replaced div with nav */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +34,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/* replaced div with nav */
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* replaced div with nav */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
