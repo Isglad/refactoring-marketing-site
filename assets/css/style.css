@@ -141,7 +141,8 @@ p {
     max-width: 150px;
 } */
 
-.search-engine-optimization {
+/* combined article classes with same css properties and values */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -150,23 +151,23 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* .online-reputation-management { 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
-.social-media-marketing {
+/* .social-media-marketing { 
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
 .search-engine-optimization img {
     max-height: 200px;
