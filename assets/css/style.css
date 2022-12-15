@@ -204,13 +204,16 @@ p {
     font-size: 36px;
 }*/
 
-.footer {
+/* targeted footer element instead of targetting the element with the class of "footer"  */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* targeted footer element instead of targetting the element with the class of "footer"  */
+footer h6 {
     font-size: 20px;
 }
+
