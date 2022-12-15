@@ -22,6 +22,7 @@ body {
 
 .header h1 .seo {
     color: #d9dcd6;
+    display: inline;  /* added display property to display the new section element inline */
 }
 
 .header div {
