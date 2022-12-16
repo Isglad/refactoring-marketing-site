@@ -31,7 +31,7 @@ This project is a codebase modification of an existing Horiseon website homepage
 
 Once deployed, the website application looks like the below image. The layout is designed for traditional desktop web browser and is not designed for smaller screens yet. This website's image shows its appearance and functionality. 
 
-![alt Horiseon web application](file:///Users/gladys/bootcamp/github/homework/refactoring-marketing-site/index.html)
+![Horiseon web application](file:///Users/gladys/bootcamp/github/homework/refactoring-marketing-site/index.html)
 
 ## Learning Points
 
