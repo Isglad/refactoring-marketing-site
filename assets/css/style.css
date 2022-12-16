@@ -60,7 +60,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* targeted header element instead of targetting the element with the class of "header" */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
