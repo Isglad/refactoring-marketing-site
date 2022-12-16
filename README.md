@@ -27,6 +27,39 @@
 
 This project is a codebase modification of an existing Horiseon website homepage. This code refactor does not change the displayed styling of the page, only the underlying code to make the website more accessible and long-term sustainable. 
 
+## Table of Contents
+
+* [Code Refactor Example](#code-refactor-example)
+* [Usage](#usage)
+* [Learning Points](#learning-points)
+* [Credits](#credits)
+* [License](#license)
+
+## Code Refactor Example
+
+```html
+<div class="search-engine-optimization">
+    <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+    <h2>Search Engine Optimization</h2>
+    <p>
+        The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+    </p>
+</div>
+```
+Converting the above non semantic div to an appropriate semantic element article provided clear description of what the section is about, and adding the id attribute to it enabled the functionality to the navigation link, Search Engine Optimization, in the header element. Also, adding explanatory comments clearly specifies what part of the code has changed.
+
+```html
+<!-- changed non semantic div element to a semantic element article and added id attribute -->
+<article id ="search-engine-optimization" class="search-engine-optimization">
+    <!-- added alt attribute to image tag -->
+    <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="search engine tools"/>
+    <h2>Search Engine Optimization</h2>
+    <p>
+        The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+    </p>
+</article>
+```
+
 ## Usage
 
 Once deployed, the website application looks like the below image. The layout is designed for traditional desktop web browser and is not designed for smaller screens yet. This website's image shows its appearance and functionality. 
@@ -47,7 +80,7 @@ Once deployed, the website application looks like the below image. The layout is
 
 ## Credits
 
-Collabortors on this project instructional staff, TAs in the University of Calfornia Berkeley Coding Bootcamp.
+Collabortors on this project are instructional staff, TAs and winter cohort 2022 of the University of Calfornia Berkeley Coding Bootcamp.
 
 ## License
 
