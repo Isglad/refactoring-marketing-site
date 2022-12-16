@@ -31,9 +31,8 @@ This project is a codebase modification of an existing Horiseon website homepage
 
 Once deployed, the website application looks like the below image. The layout is designed for traditional desktop web browser and is not designed for smaller screens yet. This website's image shows its appearance and functionality. 
 
-<!-- ![Horiseon web application](file:///Users/gladys/bootcamp/github/homework/refactoring-marketing-site/index.html) -->
+![Horiseon web application](./assets/images/01-html-css-git-homework-demo.png)
 
-<img src="https://ucb.bootcampcontent.com/UCB-Coding-Bootcamp/UCB-VIRT-FSF-FT-12-2022-U-LOLC/-/raw/main/course-content/01-html-git-css/challenge/Assets/01-html-css-git-homework-demo.png" alt=""Horiseon web application />
 
 ## Learning Points
 
