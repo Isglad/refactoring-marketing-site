@@ -31,14 +31,14 @@ This project is a codebase modification of an existing Horiseon website homepage
 
 Once deployed, the website application looks like the below image. The layout is designed for traditional desktop web browser and is not designed for smaller screens yet. This website's image shows its appearance and functionality. 
 
-![Horiseon web application](./assets/images/01-html-css-git-homework-demo.png)
+![Horiseon site langing page](./assets/images/site.gif)
 
 
 ## Learning Points
 
 - Use of HTML semantic element that clearly describes its meaning to both browser and developer.
 - Structure HTML elements to follow a logical order.
-- Verify and ensure that accessible alt attributes are added to elements like image.
+- Verify and ensure that accessible alt attributes are added to image elements.
 - Verify and ensure that heading levels (H1-H6) are sequentially ordered.
 - Set a concise and descriptive title inside the head element.
 - Provide explanatory comments to each line changed.
